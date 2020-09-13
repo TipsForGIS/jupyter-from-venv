@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# ** remember to run chmod after you download it to grant permission for this file to execute ** 
+
 ###########################################
 # assuming you have Jupyter Lab installed # 
 # and you created a myvenv env            #
@@ -19,5 +21,5 @@ python3 -m ipykernel install --user --name=myenv
 # to list kernels (global python + venv(s))
 jupyter kernelspec list
 
-# to remove a kernel
-jupyter kernelspec uninstall myenv
+# to remove a kernel, uncomment the following line
+#jupyter kernelspec uninstall myenv
