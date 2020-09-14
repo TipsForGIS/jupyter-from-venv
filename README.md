@@ -1,6 +1,6 @@
 # Intorduction
 
-This is a shell script that enables a venv environment to run on Jupyter Lab assuming you have Juptery Lab installed on your machine. Basically the script will create a `venv` folder in your Python project folder. Then the script will activate your venv folder and make it ready for use in a running Jupyter Lab session on your default browser.
+This is a shell script that enables a `venv` environment to run on `Jupyter Lab` assuming you have `Python` and `Juptery Lab` installed on your machine. Basically the script will create a `venv` folder in your Python project folder. Then the script will activate your venv folder and make it ready for use in a running `Jupyter Lab` session on your default browser.
 
 
 # Preparation
