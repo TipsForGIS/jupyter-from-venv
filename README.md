@@ -1,6 +1,6 @@
 # Intorduction
 
-This is a shell script that enables a venv environment to run on Jupyter Lab.
+This is a shell script that enables a venv environment to run on Jupyter Lab assuming you have Juptery Lab installed on your machine. Basically the script will create a `venv` folder in your Python project folder. Then the script will activate your venv folder and make it ready for use in a running Jupyter Lab session on your default browser.
 
 
 # Preparation
@@ -26,12 +26,9 @@ pandas==1.1.2
 geojson==2.5.0
 ```
 
-
-
-
 # Running the script
 
-Once you have the script inside your Python project folder, you can run the command:
+Once you have the script inside your Python project folder, you can run the command with an argument for the venv folder name you want to use:
 
 `source jupyter-from-venv.sh my-venv`
 
