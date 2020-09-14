@@ -49,7 +49,7 @@ After running the above command let's say in the same folder structure above, yo
           jupyter-from-venv.sh
 ```
 
-But the script will automatically open a Jupyter Lab session for you with my-venv active as its active kernel.
+And the script will automatically open on your default browser, a Jupyter Lab session with my-venv as its active kernel.
 
 
 
