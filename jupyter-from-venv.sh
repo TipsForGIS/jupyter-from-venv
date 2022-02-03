@@ -16,6 +16,9 @@ python3 -m venv $1
 # activating the venv folder
 source ./$1/bin/activate
 
+# update pip
+pip3 install --upgrade pip
+
 # install ipykernel and the other packages listed in requirements.txt
 pip3 install -r ./requirements.txt
 
